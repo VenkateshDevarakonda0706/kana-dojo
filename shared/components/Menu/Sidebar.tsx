@@ -319,7 +319,7 @@ const SectionHeader = ({
     return (
       <button
         onClick={onToggle}
-        className='mt-3 flex w-full cursor-pointer items-center gap-1 px-4 text-xs text-(--main-color) uppercase opacity-70 transition-opacity hover:opacity-100 max-lg:hidden'
+        className='mt-3 mb-1 flex w-full cursor-pointer items-center gap-1 px-4 text-xs text-(--main-color) uppercase opacity-70 transition-opacity hover:opacity-100 max-lg:hidden'
       >
         {isExpanded ? (
           <ChevronDown className='h-3 w-3 text-(--secondary-color)' />
@@ -646,7 +646,7 @@ const Sidebar = () => {
               />
               {/* Only show items if section is expanded or not collapsible */}
               {(!section.collapsible || isExpanded) && section.items.length > 0 && (
-                <div className='flex w-full flex-col gap-0 max-lg:hidden'>
+                <div className='flex w-full flex-col gap-0.5 max-lg:hidden'>
                   {section.items.map(item => (
                     <NavLink
                       key={item.href}
