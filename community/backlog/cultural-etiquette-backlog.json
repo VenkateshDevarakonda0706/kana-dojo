@@ -618,7 +618,7 @@
     "note": "合意形成を重視する文化。",
     "id": 69,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "situation": "列に並ぶ時 4",
@@ -626,7 +626,7 @@
     "dont": "割り込む",
     "note": "駅・店頭では順番厳守。",
     "id": 70,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
