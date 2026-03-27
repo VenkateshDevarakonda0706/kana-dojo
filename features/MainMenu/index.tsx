@@ -40,7 +40,7 @@ const MainMenu = () => {
       'border-b-8 border-(--secondary-color-accent) group-hover:border-(--main-color-accent)',
       'transition-all duration-200',
       'active:border-b-0 active:translate-y-[6px] active:mb-[6px]',
-      'animate-float',
+      'motion-safe:animate-float',
       delay,
       `[--float-distance:${floatDistance}]`,
     );
