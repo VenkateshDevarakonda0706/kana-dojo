@@ -25,7 +25,7 @@ const actionButtonVariants = cva(
         '2xl': 'rounded-2xl',
         '3xl': 'rounded-3xl',
         '4xl': 'rounded-[2rem]',
-        full: 'rounded-full',
+        'full': 'rounded-full',
       },
       borderBottomThickness: {
         0: 'border-b-0 active:border-b-0 active:translate-y-0',
