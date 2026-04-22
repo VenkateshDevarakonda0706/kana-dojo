@@ -1758,8 +1758,10 @@
     "backgroundColor": "oklch(24.0% 0.030 20.0 / 1)",
     "mainColor": "oklch(72.0% 0.145 5.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.080 40.0 / 1)",
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": false,
+    "completedBy": "Saish-aher-28",
+    "completedPR": 14117
   },
   {
     "id": "shoji-sunlight",
