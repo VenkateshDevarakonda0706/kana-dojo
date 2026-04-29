@@ -32,7 +32,7 @@ type CollectionLevel = 'n5' | 'n4' | 'n3' | 'n2' | 'n1';
 type ContentType = 'kanji' | 'vocabulary';
 
 const UNIT_SELECTOR_ACTIVE_FLOAT_CLASSES =
-  'motion-safe:animate-float [--float-distance:-3.5px] delay-500ms';
+  'motion-safe:animate-float [--float-distance:-3px] delay-500ms';
 
 // Calculate number of sets (10 items per set)
 const calculateSets = (length: number) => Math.ceil(length / 10);
@@ -281,12 +281,14 @@ const UnitSelector = () => {
           {activeCollection &&
             shouldShowSubunitSelector(activeCollection.levelCount) && (
               <>
-                <div className='-mx-2 my-2 h-0.5 bg-(--border-color)' />
-                <SubunitSelector
-                  subunits={activeSubunits}
-                  selectedSubunitId={resolvedSelectedSubunitId}
-                  onSelect={handleSubunitSelect}
-                />
+                <div className='-mx-2 my-3 h-0.5 bg-(--border-color)' />
+                <div className='pb-1'>
+                  <SubunitSelector
+                    subunits={activeSubunits}
+                    selectedSubunitId={resolvedSelectedSubunitId}
+                    onSelect={handleSubunitSelect}
+                  />
+                </div>
               </>
             )}
         </div>

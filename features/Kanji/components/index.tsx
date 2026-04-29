@@ -34,6 +34,13 @@ const KANJI_LENGTHS: Record<KanjiLevel, number> = {
   n2: N2KanjiLength,
   n1: N1KanjiLength,
 };
+const KANJI_SET_COUNTS: Record<KanjiLevel, number> = {
+  n5: Math.ceil(N5KanjiLength / KANJI_PER_SET),
+  n4: Math.ceil(N4KanjiLength / KANJI_PER_SET),
+  n3: Math.ceil(N3KanjiLength / KANJI_PER_SET),
+  n2: Math.ceil(N2KanjiLength / KANJI_PER_SET),
+  n1: Math.ceil(N1KanjiLength / KANJI_PER_SET),
+};
 
 const KanjiCards = () => {
   const selectedKanjiCollectionName = useKanjiStore(
@@ -70,7 +77,7 @@ const KanjiCards = () => {
   );
 
   const unitSummaries = useMemo(
-    () => buildUnitSummaries(levelOrder, level => KANJI_LENGTHS[level]),
+    () => buildUnitSummaries(levelOrder, level => KANJI_SET_COUNTS[level]),
     [],
   );
   const activeUnitSummary = useMemo(

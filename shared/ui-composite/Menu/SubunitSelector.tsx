@@ -24,7 +24,7 @@ const SubunitSelector = ({
   }
 
   return (
-    <div className='grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6'>
+    <div className='grid grid-cols-2 gap-2 sm:grid-cols-[repeat(auto-fit,minmax(120px,1fr))]'>
       {subunits.map(subunit => {
         const isSelected = subunit.id === selectedSubunitId;
         const shortLabel = subunit.label.replace('Levels ', '');
@@ -43,7 +43,7 @@ const SubunitSelector = ({
               >
                 <div
                   className={clsx(
-                    'h-full w-full rounded-2xl border-b-8 border-(--secondary-color-accent) bg-(--secondary-color)',
+                    'h-full w-full rounded-2xl border-b-6 border-(--secondary-color-accent) bg-(--secondary-color)',
                     SUBUNIT_SELECTOR_ACTIVE_FLOAT_CLASSES,
                   )}
                 />

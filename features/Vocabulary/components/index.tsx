@@ -34,6 +34,13 @@ const VOCAB_LENGTHS: Record<VocabLevel, number> = {
   n2: N2VocabLength,
   n1: N1VocabLength,
 };
+const VOCAB_SET_COUNTS: Record<VocabLevel, number> = {
+  n5: Math.ceil(N5VocabLength / WORDS_PER_SET),
+  n4: Math.ceil(N4VocabLength / WORDS_PER_SET),
+  n3: Math.ceil(N3VocabLength / WORDS_PER_SET),
+  n2: Math.ceil(N2VocabLength / WORDS_PER_SET),
+  n1: Math.ceil(N1VocabLength / WORDS_PER_SET),
+};
 
 const vocabCollectionNames: Record<VocabLevel, string> = {
   n5: 'N5',
@@ -78,7 +85,7 @@ const VocabCards = () => {
   );
 
   const unitSummaries = useMemo(
-    () => buildUnitSummaries(levelOrder, level => VOCAB_LENGTHS[level]),
+    () => buildUnitSummaries(levelOrder, level => VOCAB_SET_COUNTS[level]),
     [],
   );
   const activeUnitSummary = useMemo(
