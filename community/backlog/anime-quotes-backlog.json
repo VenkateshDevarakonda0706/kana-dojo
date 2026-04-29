@@ -1407,6 +1407,8 @@
     "anime": "Fist of the North Star",
     "character": "Kenshiro",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "leeydev",
+    "completedPR": 15015
   }
 ]
