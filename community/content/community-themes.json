@@ -402,6 +402,12 @@
     "secondaryColor": "oklch(85.0% 0.155 90.0 / 1)"
   },
   {
+    "id": "neon-sakura",
+    "backgroundColor": "oklch(18.5% 0.055 320.0 / 1)",
+    "mainColor": "oklch(82.0% 0.210 340.0 / 1)",
+    "secondaryColor": "oklch(72.0% 0.165 285.0 / 1)"
+  },
+  {
     "id": "castle-gate",
     "backgroundColor": "oklch(23.0% 0.018 75.0 / 1)",
     "mainColor": "oklch(70.0% 0.055 80.0 / 1)",
