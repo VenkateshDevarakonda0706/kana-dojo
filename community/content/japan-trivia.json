@@ -22,4 +22,10 @@
     "answers": ["Kimono", "Hanbok", "Cheongsam", "Sari"],
     "correctIndex": 0
   }
+,
+{
+  "question": "What is the oldest existing company in the world, located in Japan?",
+  "answer": "Kongō Gumi, a construction company founded in 578 AD that built temples for over 1,400 years.",
+  "difficulty": "medium"
+}
 ]
