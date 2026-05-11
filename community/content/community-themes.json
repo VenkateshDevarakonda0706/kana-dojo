@@ -468,5 +468,11 @@
   "accentColor": "oklch(70.0% 0.180 30.0)",
   "borderColor": "oklch(50.0% 0.070 60.0 / 0.5)",
   "secondaryColor": "oklch(60.0% 0.140 80.0)"
+},
+{
+  "id": "ginkgo-gold",
+  "backgroundColor": "oklch(23.0% 0.045 85.0 / 1)",
+  "mainColor": "oklch(88.0% 0.170 95.0 / 1)",
+  "secondaryColor": "oklch(72.0% 0.135 75.0 / 1)"
 }
 ]
