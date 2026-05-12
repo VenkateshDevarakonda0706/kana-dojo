@@ -636,5 +636,27 @@
     "Yokohama"
   ],
   "correctIndex": 0
+},
+  {
+  "question": "Which Japanese city hosted the 1998 Winter Olympics?",
+  "difficulty": "hard",
+  "answers": [
+    "Nagano",
+    "Kobe",
+    "Hiroshima",
+    "Naha"
+  ],
+  "correctIndex": 0
 }
+  {
+  "question": "Which Japanese island chain is known for tropical beaches and coral reefs?",
+  "difficulty": "hard",
+  "answers": [
+    "Okinawa",
+    "Sado",
+    "Awaji",
+    "Oki"
+  ],
+  "correctIndex": 0
+},
 ]
