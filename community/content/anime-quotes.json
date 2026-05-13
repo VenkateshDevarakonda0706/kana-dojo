@@ -530,6 +530,13 @@
     "character": "Natsu Dragneel"
   },
   {
+    "japanese": "だが…それがいい。",
+    "romaji": "Daga... sore ga ii.",
+    "english": "But... that's what I like. (alt wording 16) (alt wording 68)",
+    "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+    "character": "Yoshikage Kira"
+  },
+  {
     "japanese": "俺はガンダムだ！",
     "romaji": "Ore wa Gandamu da!",
     "english": "I am Gundam! (alt wording 25)",
@@ -537,10 +544,10 @@
     "character": "Setsuna F. Seiei"
   },
   {
-  "japanese": "オラに元気を分けてくれ!",
-  "romaji": "Ora ni genki o wakete kure!",
-  "english": "Lend me your energy! (alt wording 52)",
-  "anime": "Dragon Ball Z",
-  "character": "Son Goku"
-}
+    "japanese": "オラに元気を分けてくれ!",
+    "romaji": "Ora ni genki o wakete kure!",
+    "english": "Lend me your energy! (alt wording 52)",
+    "anime": "Dragon Ball Z",
+    "character": "Son Goku"
+  }
 ]
