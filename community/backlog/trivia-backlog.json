@@ -1480,8 +1480,10 @@
       "Okonomiyaki"
     ],
     "correctIndex": 1,
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": false,
+    "completedBy": "madhavgairola",
+    "completedPR": 16744
   },
   {
     "id": 107,
