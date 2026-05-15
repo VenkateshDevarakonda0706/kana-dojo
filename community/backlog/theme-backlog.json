@@ -1246,8 +1246,10 @@
     "backgroundColor": "oklch(15.0% 0.028 255.0 / 1)",
     "mainColor": "oklch(82.0% 0.155 210.0 / 1)",
     "secondaryColor": "oklch(70.0% 0.145 35.0 / 1)",
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": false,
+    "completedBy": "SyedaMushfia",
+    "completedPR": 16969
   },
   {
     "id": "paper-lantern",
