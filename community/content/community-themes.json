@@ -384,21 +384,21 @@
   "secondaryColor": "oklch(70.0% 0.120 310.0 / 1)"
   },
   {
-  "id": 'midnight-sushi',
-  "backgroundColor": 'oklch(15.0% 0.028 255.0 / 1)',
+  "id": "midnight-sushi",
+  "backgroundColor": "oklch(15.0% 0.028 255.0 / 1)",
   "mainColor": 'oklch(82.0% 0.155 210.0 / 1)',
   "secondaryColor": 'oklch(70.0% 0.145 35.0 / 1)'
   },
   {
-  id: 'cedar-incense',
-  backgroundColor: 'oklch(19.0% 0.020 70.0 / 1)',
-  mainColor: 'oklch(72.0% 0.095 75.0 / 1)',
-  secondaryColor: 'oklch(58.0% 0.065 55.0 / 1)'
+  "id": "cedar-incense",
+  "backgroundColor": "oklch(19.0% 0.020 70.0 / 1)",
+  "mainColor": "oklch(72.0% 0.095 75.0 / 1)",
+  "secondaryColor": "oklch(58.0% 0.065 55.0 / 1)"
   },
-  {
-  id: 'lantern-blue',
-  backgroundColor: 'oklch(16.0% 0.030 250.0 / 1)',
-  mainColor: 'oklch(75.0% 0.115 230.0 / 1)',
-  secondaryColor: 'oklch(65.0% 0.085 255.0 / 1)'
+ {
+  "id": "lantern-blue",
+  "backgroundColor": "oklch(16.0% 0.030 250.0 / 1)",
+  "mainColor": "oklch(75.0% 0.115 230.0 / 1)",
+  "secondaryColor": "oklch(65.0% 0.085 255.0 / 1)"
 }
 ]
