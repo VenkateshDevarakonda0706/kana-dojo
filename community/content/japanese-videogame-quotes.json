@@ -300,11 +300,18 @@
         "game":  "Danganronpa series",
         "character":  "Makoto Naegi"
     },
-    {
-        "english":  "This is the beginning of the adventure!",
-        "game":  "Dragon Quest XI",
-        "character":  "Hero / party lines",
-        "japanese":  "冒険の始まりだ！",
-        "romaji":  "Bouken no hajimari da!"
-    }
+   {
+    "english": "This is the beginning of the adventure!",
+    "game": "Dragon Quest XI",
+    "character": "Hero / party lines",
+    "japanese": "冒険の始まりだ！",
+    "romaji": "Bouken no hajimari da!"
+},
+{
+    "japanese": "行くぞ、みんな！",
+    "romaji": "Iku zo, minna!",
+    "english": "Let's go, everyone!",
+    "game": "Kingdom Hearts series (JP dub)",
+    "character": "Sora"
+}
 ]
