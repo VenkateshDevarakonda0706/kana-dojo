@@ -187,4 +187,14 @@
   "correctIndex": 2
   }
 ]
-
+{
+  "question": "Which traditional Japanese sport involves wrestling in a ring? (Community variation 36)",
+  "difficulty": "easy",
+  "answers": [
+    "Sumo",
+    "Kendo",
+    "Judo",
+    "Aikido"
+  ],
+  "correctIndex": 0
+}
